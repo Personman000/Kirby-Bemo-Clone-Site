@@ -13,17 +13,22 @@ body
 	font: 12pt Arial, Helvetica, Geneva, sans-serif;
 }
 
-header
+.banner
 {
-	height: auto;
+	width: 100%;
 	box-sizing: border-box;
-	padding: 0px 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
+
+header
+{
+	height: auto;
+	padding: 0px 50px;
 	position: fixed;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.9);
 	width: 100%;
 	z-index: 1;
 }
@@ -72,8 +77,34 @@ nav a:hover
 	padding: 0 250px;
 }
 
+main
+{
+	padding: 50px 40px;
+}
 
 p a
 {
 	color: orange;
+}
+
+footer
+{
+	height: 80px;
+	background-color: darkblue;
+	color:white;
+	font-size: 10pt;
+	padding: 0 50px;
+}
+
+footer img
+{
+	width: 20px;
+	margin: 0 15px;
+}
+
+footer img:hover
+{
+	filter: brightness(60%);
+	transition: all 0.5s ease;
+	cursor: pointer;
 }

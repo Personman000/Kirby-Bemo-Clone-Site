@@ -10,7 +10,7 @@
 
 
 <body>
-	<header id="navbar">
+	<header id="navbar" class="banner">
 		<img id="logo" src="<?= url('assets/images/bemo-logo.png') ?>">
 		<nav id="menu">
 			<?php foreach ($pages->listed() as $pg): ?>
