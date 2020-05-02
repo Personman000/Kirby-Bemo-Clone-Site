@@ -11,7 +11,7 @@
 
 <body>
 	<header id="navbar" class="banner">
-		<img id="logo" src="<?= url('assets/images/bemo-logo.png') ?>">
+		<a href="<?= $site->url() ?>"><img id="logo" src="<?= url('assets/images/bemo-logo.png') ?>"></a>
 		<nav id="menu">
 			<?php foreach ($pages->listed() as $pg): ?>
 	        	<?= $pg->title()->link() ?>

@@ -1,0 +1,19 @@
+
+title: Contact Us
+
+columns:
+  - width: 1/2
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: huge
+
+  - width: 1/2
+    fields:
+      email:
+        label: Email
+        type: email
+      phone:
+        label: Phone
+        type: tel
