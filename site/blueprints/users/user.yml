@@ -1,0 +1,5 @@
+title: User
+description: "Access to site but not to Panel"
+permissions:
+  access:
+    panel: false
